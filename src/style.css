@@ -1,0 +1,61 @@
+/* The whole website page */
+body{
+    background-color: #361f0c;
+    color: #ffe9c5;
+    background-image: url("../src/components/images/cottagecorewallpaper.jpg");
+    font-family: 'Oswald', sans-serif !important;
+}
+
+
+
+/* The header stuff */
+.todoListHeaderBase{
+    background-color: #36170cd7;
+}
+
+.todoListHeaderLogo{
+    padding: 20px;
+}
+
+.todoProps{
+    padding-bottom: 20px;
+}
+
+.timeProps{
+    margin-bottom: auto;
+}
+
+/* The list stuff */
+.Todo{
+    padding: 10px;
+    margin-top: 10px;  
+    background-color: #36170cd7;
+    border: dashed;
+    border-color:#ffe9c5;
+    font-size: larger;
+}
+
+
+.App {
+    text-align: center;
+}
+
+.TodoWrapper {
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #ffe9c5;
+    
+}
+
+.todo-input{
+
+    font-size: large;
+}
+
+.todo-btn{
+
+    font-size: large;
+}
